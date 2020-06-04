@@ -20,9 +20,19 @@ class Song
     end
 
     def Song.genres
+      @@genres
+    end
+
+    def Song.genre_count
 
     end
 
+    def Song.artists
+      @@artists
+    end
 
+    def Song.artist_count
+
+    end
 
 end
